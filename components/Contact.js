@@ -7,13 +7,9 @@ var Contact = React.createClass({
     return (
       <div className='contactItem'>
         <img className='contactImage' src={'http://icons.veryicon.com/png/System/Qetto%202/contacts.png'}/>
-        <div className='label-wrapper'>
-          <p className='contactLabel'>First name: {this.props.item.firstName}</p>
-          <p className='contactLabel'>Last name: {this.props.item.lastName}</p>
-          <a href={'mailto: ' + this.props.item.email} className='contactEmail'>
-            {this.props.item.email}
-          </a>
-        </div>
+        <p className='contactLabel'>First name: {this.props.item.firstName}</p>
+        <p className='contactLabel'>Last name: {this.props.item.lastName}</p>
+        <a href={'mailto: ' + this.props.item.email} className='contactEmail'>{this.props.item.email}</a>
       </div>
     );
   }
