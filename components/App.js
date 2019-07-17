@@ -20,9 +20,9 @@ var contacts = [
 ];
 
 var contactForm = {
-  firstName: '',
-  lastName: '',
-  email: ''
+  firstName: "",
+  lastName: "",
+  email: ""
 };
 
 var App = React.createClass({
