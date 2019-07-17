@@ -61,12 +61,16 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.contactItem a {
+	width: 60%;
+	margin: 10px;
+}
 .contactImage {
     width: 200px;
     height: 200px;
     padding: 10px;
 }
-.contactLabel, .contactEmail {
+.contactLabel {
 	width: 60%;
 	margin: 10px;
 }
